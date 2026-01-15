@@ -54,7 +54,6 @@
     }
 
     .introdução h1{
-        font-size: 32px;
         margin-bottom: 16px;
     }
 
@@ -63,15 +62,4 @@
         width: 100%;
     }
 
-}
-
-@media(max-width: 1200px){
-
-    .introdução h1{
-        font-size: 48px;
-    }
-
-    .introdução p{
-        font-size: 18px;
-    }
 }
