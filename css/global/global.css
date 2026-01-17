@@ -2,10 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-bottom: 600px;
     color: #111111;
+    
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+img[src$=".jpg"]{ /* isso é usado em tudo que for ".jpg"*/
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
 }
