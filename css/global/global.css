@@ -12,13 +12,10 @@ body{
     
 }
 
-img{
-    width: 100%;
-    display: block;
-}
-
 img[src$=".jpg"]{ /* isso é usado em tudo que for ".jpg"*/
     border-radius: 4px;
+    width: 100%;
+    display: block;
 }
 
 a{
