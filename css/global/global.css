@@ -11,9 +11,16 @@ body{
     
 }
 
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 img[src$=".jpg"]{ /* isso é usado em tudo que for ".jpg"*/
     border-radius: 4px;
     width: 100%;
+    height: auto;
     display: block;
 }
 
